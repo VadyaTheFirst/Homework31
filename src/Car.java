@@ -65,7 +65,7 @@ public class Car extends Transport {
         String s3="Дизель";
 
 
-        if (!(getGasType().equals(s1))||!(getGasType().equals(s2))||!(getGasType().equals(s3))){
+        if (!(getGasType().equals(s1))&&!(getGasType().equals(s2))&&!(getGasType().equals(s3))){
             System.out.println(getGasType());
             this.gasType="Бензин";
         }
