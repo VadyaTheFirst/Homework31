@@ -1,5 +1,5 @@
 public class Main {
-
+//
     public static void carsCout(Car[] cars) {
 
         for (byte i = 0; i < cars.length; i++) {
