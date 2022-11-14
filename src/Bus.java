@@ -3,7 +3,7 @@ public class Bus extends Transport{
     public Bus(String brand, String model, int year, String country, String color, Integer maxSpeed,String gasType) {
         super(brand, model, year, country, color, maxSpeed, gasType);
 
-        if (!getGasType().equals("Бензин")||!getGasType().equals("Дизель")){
+        if (!getGasType().equals("Бензин")&&!getGasType().equals("Дизель")){
             this.gasType="Бензин";
         }
     }
